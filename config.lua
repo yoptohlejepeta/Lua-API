@@ -2,7 +2,7 @@ local config = require("lapis.config")
 
 config("development", {
   server = "cqueues",
-  port = 8081,
+  port = 8000,
 })
 
 config("production", {
