@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lapis</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+  <nav>
+    <ul>
+      <li><strong>API framework lapis</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#">Lua</a></li>
+      <li><a href="#">Úplně</a></li>
+      <li><a href="#" role="button">Nejvíc</a></li>
+    </ul>
+  </nav>
+</div>
+  <div class="container">
+  <% content_for("inner") %>
+  <p> <%= params.id %> </p>
+</div>
+</body>
+</html>
