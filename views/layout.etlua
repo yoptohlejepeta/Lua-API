@@ -19,9 +19,9 @@
     </ul>
   </nav>
 </div>
-  <div class="container">
+<main class="container">
   <% content_for("inner") %>
   <p> <%= params.id %> </p>
-</div>
+</main>
 </body>
 </html>
