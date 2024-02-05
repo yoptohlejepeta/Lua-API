@@ -6,12 +6,8 @@ app.layout = require("views.layout")
 
 app:get("/", function(self)
 
-  return { render = "index" }
+  return { render = "home" }
 end)
 
-app:get("/:id", function(self)
-
-  return { render = "index" }
-end)
 
 return app
