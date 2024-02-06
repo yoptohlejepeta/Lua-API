@@ -18,7 +18,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Product
+                  Docs
                 </a>
                 <ul class="dropdown-menu mt-lg-2 rounded-top-0">
                   <li><a class="dropdown-item" href="https://leafo.net/lapis/reference.html">Lapis</a></li>

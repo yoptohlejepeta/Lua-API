@@ -8,7 +8,7 @@ app:enable("etlua")
 app.layout = require("views.layout")
 
 app:get("/", function(self)
-  -- local users = db.select("select * from users")
+  self.users = db.query("select * from users")
 
   return { render = "home" }
 end)
@@ -19,7 +19,14 @@ app:match("login", "/login", respond_to({
     return { render = "login" , layout = false}
   end,
   POST = function(self)
-    print(self.params.email, self.params.password)
+    local user = db.query("select * from users where email = ? and password = ?", self.params.email, self.params.password)
+    if user[1] then
+      self.session.email = user[1].email
+      return self:write("logged in")
+    else
+      return self:write("invalid username or password")
+    end  
+
   end
 }))
 

@@ -11,7 +11,8 @@ dependencies = {
    "lua >= 5.1",
    "http",
    "cqueues",
-   "lapis"
+   "lapis",
+   "luasql-mysql",
 }
 build = {
    type = "builtin",
