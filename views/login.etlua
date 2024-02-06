@@ -26,6 +26,12 @@
             <p class="text-center mt-3">Don't have an account? <a class="link-warning" href="/register">Register</a></p>
         </form>
 
+        <!-- <% if error then %>
+            <div class="alert alert-danger mx-auto mt-4" role="alert" style="max-width: 400px;">
+                <%= error %>
+            </div>
+        <% end %> -->
+
     </main>
 
     

@@ -15,6 +15,14 @@ luarocks install --only-deps lua-api-dev-1.rockspec
 
 ## 🏃🏾 Run
 
+Create tables:
+
+```bash
+lua_modules/bin/lapis migrate
+```
+
+Run server:
+
 ```bash
 lua_modules/bin/lapis server
 ```

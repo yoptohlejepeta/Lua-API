@@ -6,4 +6,6 @@ schema.create_table("users", {
   { "username", types.varchar },
   { "email", types.varchar},
   { "password", types.varchar },
+  "UNIQUE (username)",
+  "UNIQUE (email)"
 })
