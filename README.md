@@ -7,13 +7,13 @@ This is also the most hipster thing you'll ever see.
 
 Why not? It's a simpler language than what you have. It can run as an nginx extension, so it can be super fast.
 
-## 📦 Install dependencies
+## 🛠️ Install dependencies
 
 ```bash
 luarocks install --only-deps lua-api-dev-1.rockspec
 ```
 
-## 🏃🏾 Run
+## 🚀 Deploy
 
 Create tables:
 
